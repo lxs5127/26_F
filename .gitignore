@@ -1,0 +1,39 @@
+# ===== TI CCS / 构建输出目录 =====
+Debug/
+Debug_*/
+Release/
+
+# ===== 编译中间产物 =====
+*.o
+*.obj
+*.d
+*.i
+*.s
+*.map
+*.out
+*.hex
+*.bin
+*.lst
+*.opt
+*.cmd
+*.lds
+*.genlibs
+*_linkInfo.xml
+Event.dot
+
+# 由 syscfg 生成的配置（保留 mspm0-modules.syscfg 源文件即可）
+ti_msp_dl_config.c
+ti_msp_dl_config.h
+
+# ===== clangd / 语言服务缓存 =====
+.clangd/
+.clangd_cache/
+.cache/
+
+# ===== 编辑器与系统文件 =====
+.vs/
+.idea/
+*.swp
+*~
+Thumbs.db
+Desktop.ini
