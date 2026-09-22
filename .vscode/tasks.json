@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "构建项目",
+			"type": "shell",
+			"command": "cd Debug && gmake -k -j 20 all -r -O",
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}
